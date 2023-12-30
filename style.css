@@ -10,7 +10,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url(/food\ menu.png);
+  background-image: url(food\ menu.png);
   background-repeat: no-repeat;
   font-family: 'Satisfy', cursive;
 }
