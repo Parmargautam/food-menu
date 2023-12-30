@@ -1,0 +1,63 @@
+.dropdown-card {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/food\ menu.png);
+  background-repeat: no-repeat;
+  font-family: 'Satisfy', cursive;
+}
+.dropdown-btn {
+  padding-left: 10px;
+text-align: center;
+padding-right: -11px;
+width: 100%;
+font-size: 30px;
+cursor: pointer;
+color: #FFBD59;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 250px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.nested-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFBD59;
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 100%;
+  top: 0;
+}
+
+.dropdown-item {
+  padding: 12px 16px;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd;
+}
+
+.prabodhm {
+  display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
